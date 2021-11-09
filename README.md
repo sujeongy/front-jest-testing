@@ -1,8 +1,12 @@
 # learn-testing
 
 ## 유닛 테스트 익히기
-
-
+### 설치
+```shell
+   npx create-react-app ./
+   npm i -D eslint-plugin-testing-library eslint-plugin-jest-dom
+   # render로 DOM 그리는 부분 / exprect-matcher로 테스트
+```
 
 ## Refs.
 
