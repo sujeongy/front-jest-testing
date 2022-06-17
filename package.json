@@ -31,12 +31,16 @@
   },
   "devDependencies": {
     "@babel/preset-react": "^7.14.5",
-    "eslint-plugin-jest-dom": "^3.9.2",
-    "eslint-plugin-testing-library": "^5.0.0",
+    "eslint-plugin-jest-dom": "^3.9.4",
+    "eslint-plugin-testing-library": "^5.5.1",
+    "msw": "^0.42.1",
     "react-hot-loader": "^4.13.0"
   },
   "presets": [
     "@babel/preset-env",
     "@babel/preset-react"
-  ]
+  ],
+  "msw": {
+    "workerDirectory": "public"
+  }
 }
